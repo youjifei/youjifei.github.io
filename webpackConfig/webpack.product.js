@@ -6,8 +6,8 @@ import gulp 			 from 'gulp';
 export default {
 	output:{
 		filename:'[name]-[chunkhash].js',
-		path:path.resolve(__dirname,'../build/'),
-		publicPath:'/build/'
+		path:path.resolve(__dirname,'../assets/'),
+		publicPath:'/assets/'
 	},
 	plugins:[
 		new webpack.optimize.CommonsChunkPlugin({
