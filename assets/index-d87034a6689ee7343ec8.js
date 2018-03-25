@@ -9798,7 +9798,7 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "copy" }, [
-        _vm._v("版权所有：©河北绿林伟业农业开发有限公司")
+        _vm._v("版权所有：©河北林伟盛达有机肥经营有限公司")
       ])
     ]
   )
@@ -16476,4 +16476,4 @@ var index_esm = {
 
 /***/ })
 ],[115]);
-//# sourceMappingURL=index-c1eb7d93f7bb47b233e8.js.map
+//# sourceMappingURL=index-d87034a6689ee7343ec8.js.map
