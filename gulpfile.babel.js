@@ -134,10 +134,10 @@ gulp.task('webpack-run-product',done=>{
 			if(value instanceof Array){
 				for(let i in value){
 					let item = value[i];
-					manifest[assetsPath + key + '.' + getfileExtension(item)] = `./assets/${item}`;
+					manifest[assetsPath + key + '.' + getfileExtension(item)] = `assets/${item}`;
 				}
 			}else{
-				manifest[assetsPath + key + '.' + getfileExtension(value)] = `./assets/${value}`;
+				manifest[assetsPath + key + '.' + getfileExtension(value)] = `assets/${value}`;
 			};
 		};
 		fs.writeFileSync(
