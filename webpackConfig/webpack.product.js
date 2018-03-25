@@ -6,7 +6,7 @@ import gulp 			 from 'gulp';
 export default {
 	output:{
 		filename:'[name]-[chunkhash].js',
-		path:path.resolve(__dirname,'../assets/'),
+		path:path.resolve(__dirname,'../build/'),
 		publicPath:'/assets/'
 	},
 	plugins:[
