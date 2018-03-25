@@ -107,7 +107,8 @@ gulp.task('release',done=>{
 	runSequence(
 		'cleanProduct',
 		'webpack-run-product',
-		['release-templates','release-assets'],
+		// ['release-templates','release-assets'],
+		['release-templates'],
 		done
 		);
 });
@@ -133,10 +134,10 @@ gulp.task('webpack-run-product',done=>{
 			if(value instanceof Array){
 				for(let i in value){
 					let item = value[i];
-					manifest[assetsPath + key + '.' + getfileExtension(item)] = `./build/${item}`;
+					manifest[assetsPath + key + '.' + getfileExtension(item)] = `./assets/${item}`;
 				}
 			}else{
-				manifest[assetsPath + key + '.' + getfileExtension(value)] = `./build/${value}`;
+				manifest[assetsPath + key + '.' + getfileExtension(value)] = `./assets/${value}`;
 			};
 		};
 		fs.writeFileSync(
@@ -147,10 +148,10 @@ gulp.task('webpack-run-product',done=>{
 	});
 });
 
-gulp.task('release-assets',done=>{
-	return  gulp.src(files.statics)
-				.pipe(gulp.dest(routes.staticProduct));
-});
+// gulp.task('release-assets',done=>{
+// 	return  gulp.src(files.statics)
+// 				.pipe(gulp.dest(routes.staticProduct));
+// });
 
 gulp.task('release-templates',done=>{
 	return  gulp.src(files.htmls)
