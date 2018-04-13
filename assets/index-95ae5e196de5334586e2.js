@@ -9339,7 +9339,7 @@ module.exports = __webpack_require__(33).f('iterator');
 /* 192 */
 /***/ (function(module, exports) {
 
-module.exports = "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<meta name=\"viewport\" content=\"initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\">\r\n\t<meta name=\"keywords\" content=\"纯羊粪有机肥,生物有机肥,菌肥,水溶肥\" />\r\n\t<meta name=\"description\" content=\"产品具有疏松土壤，提高土壤肥力，促进农作物生长改善生物果实品质，肥效长、无公害等优点！\" />\r\n\t<title>河北林伟盛达有机肥经营有限公司</title>\r\n\t<script type=\"text/javascript\" src=\"/assets/common.js\"></script>\r\n\t<script type=\"text/javascript\" src=\"https://api.map.baidu.com/api?v=1.5&ak=8BAGvfWMqIcktfQwtBHHwNglkZ3setVj&s=1\"></script> \r\n</head>\r\n<body>\r\n\t<div id=\"index\"></div>\r\n\r\n\t<script type=\"text/javascript\" src=\"/assets/index.js\"></script>\r\n</body>\r\n</html>\r\n";
+module.exports = "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<meta name=\"viewport\" content=\"initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\">\r\n\t<meta name=\"keywords\" content=\"纯羊粪有机肥,生物有机肥,菌肥,水溶肥\" />\r\n\t<meta name=\"description\" content=\"产品具有疏松土壤，提高土壤肥力，促进农作物生长改善生物果实品质，肥效长、无公害等优点！\" />\r\n\t<title>河北林伟金鑫农业有机肥制造有限公司</title>\r\n\t<script type=\"text/javascript\" src=\"/assets/common.js\"></script>\r\n\t<script type=\"text/javascript\" src=\"https://api.map.baidu.com/api?v=1.5&ak=8BAGvfWMqIcktfQwtBHHwNglkZ3setVj&s=1\"></script> \r\n</head>\r\n<body>\r\n\t<div id=\"index\"></div>\r\n\r\n\t<script type=\"text/javascript\" src=\"/assets/index.js\"></script>\r\n</body>\r\n</html>\r\n";
 
 /***/ }),
 /* 193 */
@@ -9489,7 +9489,7 @@ exports = module.exports = __webpack_require__(5)(false);
 
 
 // module
-exports.push([module.i, "\n@charset \"UTF-8\";\n/**\r\n * reset html tag\r\n * --------------------------------------------------\r\n */\nbody,\nol, ul, li, dl, dt, dd,\nh1, h2, h3, h4, h5, h6, p, pre,\nform, fieldset, legend, input, textarea, select, button,\nblockquote, th, td, hr, article, aside, details,\nfigcaption, figure, header, footer, section, hgroup, menu, nav,\nspan, div, a {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\nbody {\n  font-size: 14px;\n  font-family: Microsoft Yahei, Verdana, Arial, SimSun;\n  color: #29374b;\n  background-color: #f7f7f7;\n}\nol, ul, li {\n  list-style: none outside none;\n}\nimg {\n  border: 0;\n}\ninput, a, select, button, textarea {\n  outline: none;\n}\ninput::-moz-focus-inner, a::-moz-focus-inner, select::-moz-focus-inner, button::-moz-focus-inner, textarea::-moz-focus-inner {\n    border-color: transparent !important;\n}\ninput[type='button'] {\n  cursor: pointer;\n  border: none;\n}\n\n/*\r\n    设置 input 框 placeholder 的颜色\r\n*/\ninput::-webkit-input-placeholder, textarea::-webkit-input-placeholder {\n  color: #989898;\n  font-family: Microsoft Yahei, Verdana, Arial, SimSun;\n}\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  　　color: #989898;\n  font-family: Microsoft Yahei, Verdana, Arial, SimSun;\n}\ninput::-ms-input-placeholder, textarea::-ms-input-placeholder {\n  　　color: #989898;\n  font-family: Microsoft Yahei, Verdana, Arial, SimSun;\n}\ninput::-o-input-placeholder, textarea::-o-input-placeholder {\n  　　color: #989898;\n  font-family: Microsoft Yahei, Verdana, Arial, SimSun;\n}\n\n/*\r\n    去除  Chrome 浏览器 input 框默认填充时的黄色背景\r\n*/\ninput:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {\n  -webkit-box-shadow: 0 0 0 1000px white inset;\n}\ninput[type=text]:focus, input[type=password]:focus, textarea:focus {\n  -webkit-box-shadow: 0 0 0 1000px white inset;\n}\na {\n  text-decoration: none;\n  cursor: pointer;\n  color: #29374b;\n}\ni {\n  font-style: normal;\n  display: inline-block;\n}\nb, strong {\n  font-weight: normal;\n}\n.clearfix {\n  clear: both;\n}\n.cursor {\n  cursor: pointer;\n}\n.clearfix:after {\n  content: \".\";\n  display: block;\n  clear: both;\n  height: 0;\n  overflow: hidden;\n}\n.normal {\n  font-weight: normal;\n}\n.none {\n  display: none;\n}\n.fr {\n  float: right;\n}\n.fl {\n  float: left;\n}\n#header {\n  width: 100%;\n  height: 59px;\n  background-image: url(" + escape(__webpack_require__(197)) + ");\n}\n#header .headerIn {\n    width: 1200px;\n    margin: 0 auto;\n}\n#header .headerIn ul {\n      width: 700px;\n      float: right;\n}\n#header .headerIn ul li {\n        display: inline-block;\n        width: 98px;\n        text-align: center;\n        float: left;\n        margin-left: 40px;\n        position: relative;\n}\n#header .headerIn ul li:hover {\n          background-image: url(" + escape(__webpack_require__(198)) + ");\n          background-repeat: no-repeat;\n}\n#header .headerIn ul li a {\n          display: block;\n          height: 59px;\n          line-height: 59px;\n          font-size: 16px;\n          color: #caeaa2;\n}\n#header.isPhoneHeader {\n    width: 100%;\n    background-color: rgba(0, 0, 0, 0.7);\n    background-image: none;\n    position: fixed;\n    z-index: 9;\n}\n#header.isPhoneHeader .headerIn {\n      width: 100%;\n      position: relative;\n}\n#header.isPhoneHeader .headerIn .tab {\n        width: 36px;\n        height: 36px;\n        color: #fff;\n        float: right;\n        margin: 10px;\n}\n#header.isPhoneHeader .headerIn .tab span {\n          display: inline-block;\n          float: left;\n          width: 24px;\n          height: 24px;\n          border-bottom-left-radius: 1px;\n          border-left: 2px solid #fff;\n          border-bottom: 2px solid #fff;\n          transform: rotate(-45deg);\n          margin-top: 0;\n          transition: all 0.3s;\n}\n#header.isPhoneHeader .headerIn .tab span.rotate {\n            transform: rotate(135deg);\n            transition: all 0.3s;\n            margin-top: 12px;\n}\n#header.isPhoneHeader .headerIn ul {\n        width: 100%;\n        float: none;\n        background-color: rgba(0, 0, 0, 0.7);\n        position: absolute;\n        top: 58px;\n        left: 0;\n        z-index: 5;\n        padding: 15px 0;\n        display: none;\n}\n#header.isPhoneHeader .headerIn ul li {\n          display: block;\n          width: 100%;\n          float: none;\n          text-align: left;\n}\n#header.isPhoneHeader .headerIn ul li:hover {\n            background-image: none;\n}\n#header.isPhoneHeader .headerIn ul li a {\n            height: 34px;\n            line-height: 34px;\n            color: #fff;\n}\n", ""]);
+exports.push([module.i, "\n@charset \"UTF-8\";\n/**\r\n * reset html tag\r\n * --------------------------------------------------\r\n */\nbody,\nol, ul, li, dl, dt, dd,\nh1, h2, h3, h4, h5, h6, p, pre,\nform, fieldset, legend, input, textarea, select, button,\nblockquote, th, td, hr, article, aside, details,\nfigcaption, figure, header, footer, section, hgroup, menu, nav,\nspan, div, a {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\nbody {\n  font-size: 14px;\n  font-family: Microsoft Yahei, Verdana, Arial, SimSun;\n  color: #29374b;\n  background-color: #f7f7f7;\n}\nol, ul, li {\n  list-style: none outside none;\n}\nimg {\n  border: 0;\n}\ninput, a, select, button, textarea {\n  outline: none;\n}\ninput::-moz-focus-inner, a::-moz-focus-inner, select::-moz-focus-inner, button::-moz-focus-inner, textarea::-moz-focus-inner {\n    border-color: transparent !important;\n}\ninput[type='button'] {\n  cursor: pointer;\n  border: none;\n}\n\n/*\r\n    设置 input 框 placeholder 的颜色\r\n*/\ninput::-webkit-input-placeholder, textarea::-webkit-input-placeholder {\n  color: #989898;\n  font-family: Microsoft Yahei, Verdana, Arial, SimSun;\n}\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  　　color: #989898;\n  font-family: Microsoft Yahei, Verdana, Arial, SimSun;\n}\ninput::-ms-input-placeholder, textarea::-ms-input-placeholder {\n  　　color: #989898;\n  font-family: Microsoft Yahei, Verdana, Arial, SimSun;\n}\ninput::-o-input-placeholder, textarea::-o-input-placeholder {\n  　　color: #989898;\n  font-family: Microsoft Yahei, Verdana, Arial, SimSun;\n}\n\n/*\r\n    去除  Chrome 浏览器 input 框默认填充时的黄色背景\r\n*/\ninput:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {\n  -webkit-box-shadow: 0 0 0 1000px white inset;\n}\ninput[type=text]:focus, input[type=password]:focus, textarea:focus {\n  -webkit-box-shadow: 0 0 0 1000px white inset;\n}\na {\n  text-decoration: none;\n  cursor: pointer;\n  color: #29374b;\n}\ni {\n  font-style: normal;\n  display: inline-block;\n}\nb, strong {\n  font-weight: normal;\n}\n.clearfix {\n  clear: both;\n}\n.cursor {\n  cursor: pointer;\n}\n.clearfix:after {\n  content: \".\";\n  display: block;\n  clear: both;\n  height: 0;\n  overflow: hidden;\n}\n.normal {\n  font-weight: normal;\n}\n.none {\n  display: none;\n}\n.fr {\n  float: right;\n}\n.fl {\n  float: left;\n}\n#header {\n  width: 100%;\n  height: 59px;\n  background-image: url(" + escape(__webpack_require__(197)) + ");\n}\n#header .headerIn {\n    width: 1200px;\n    margin: 0 auto;\n}\n#header .headerIn .title {\n      color: #fff;\n      font-size: 22px;\n      line-height: 59px;\n      letter-spacing: 5px;\n}\n#header .headerIn ul {\n      width: 700px;\n      float: right;\n}\n#header .headerIn ul li {\n        display: inline-block;\n        width: 98px;\n        text-align: center;\n        float: left;\n        margin-left: 40px;\n        position: relative;\n}\n#header .headerIn ul li:hover {\n          background-image: url(" + escape(__webpack_require__(198)) + ");\n          background-repeat: no-repeat;\n}\n#header .headerIn ul li a {\n          display: block;\n          height: 59px;\n          line-height: 59px;\n          font-size: 16px;\n          color: #caeaa2;\n}\n#header.isPhoneHeader {\n    width: 100%;\n    background-color: rgba(0, 0, 0, 0.7);\n    background-image: none;\n    position: fixed;\n    z-index: 9;\n}\n#header.isPhoneHeader .headerIn {\n      width: 100%;\n      position: relative;\n}\n#header.isPhoneHeader .headerIn .title {\n        display: inline-block;\n        width: 170px;\n        position: relative;\n        left: 50%;\n        margin-left: -85px;\n}\n#header.isPhoneHeader .headerIn .tab {\n        width: 36px;\n        height: 36px;\n        color: #fff;\n        float: right;\n        margin: 10px;\n}\n#header.isPhoneHeader .headerIn .tab span {\n          display: inline-block;\n          float: left;\n          width: 24px;\n          height: 24px;\n          border-bottom-left-radius: 1px;\n          border-left: 2px solid #fff;\n          border-bottom: 2px solid #fff;\n          transform: rotate(-45deg);\n          margin-top: 0;\n          transition: all 0.3s;\n}\n#header.isPhoneHeader .headerIn .tab span.rotate {\n            transform: rotate(135deg);\n            transition: all 0.3s;\n            margin-top: 12px;\n}\n#header.isPhoneHeader .headerIn ul {\n        width: 100%;\n        float: none;\n        background-color: rgba(0, 0, 0, 0.7);\n        position: absolute;\n        top: 58px;\n        left: 0;\n        z-index: 5;\n        padding: 15px 0;\n        display: none;\n}\n#header.isPhoneHeader .headerIn ul li {\n          display: block;\n          width: 100%;\n          float: none;\n          text-align: left;\n}\n#header.isPhoneHeader .headerIn ul li:hover {\n            background-image: none;\n}\n#header.isPhoneHeader .headerIn ul li a {\n            height: 34px;\n            line-height: 34px;\n            color: #fff;\n}\n", ""]);
 
 // exports
 
@@ -9619,7 +9619,15 @@ var render = function() {
     { class: _vm.isPhone ? "isPhoneHeader" : "", attrs: { id: "header" } },
     [
       _c("div", { staticClass: "headerIn" }, [
-        _c("img", { attrs: { src: "", alt: "" } }),
+        !_vm.isPhone
+          ? _c("span", { staticClass: "title" }, [
+              _vm._v("河北林伟金鑫农业有机肥制造有限公司")
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.isPhone
+          ? _c("span", { staticClass: "title" }, [_vm._v("河北林伟金鑫")])
+          : _vm._e(),
         _vm._v(" "),
         _vm.isPhone
           ? _c("div", { staticClass: "tab", on: { click: _vm.navSlide } }, [
@@ -9646,7 +9654,9 @@ var render = function() {
               )
             ])
           })
-        )
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "clearfix" })
       ])
     ]
   )
@@ -9798,7 +9808,7 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "copy" }, [
-        _vm._v("版权所有：©河北林伟盛达有机肥经营有限公司")
+        _vm._v("版权所有：©河北林伟金鑫农业有机肥制造有限公司")
       ])
     ]
   )
@@ -13140,7 +13150,7 @@ var render = function() {
           _vm._v(" "),
           _c("router-link", { attrs: { to: "/contactUs" } }, [
             _vm._v(
-              "河北林伟盛达有机肥经营有限公司位于历史悠久的古城保定市唐县，是一家以高新生物技术为核心，有机、生态、绿色、环保为理念，集产品研发、生产销售，物流配送于一体的综合性企业。公司生产环节中的主要原料为当地畜禽废物及页岩、秸秆等，利用高科技发酵技术处理，污染问题，养殖业的可持续发展。并以高新生物技术为核心..."
+              "河北林伟金鑫农业有机肥制造有限公司位于历史悠久的古城保定市唐县，是一家以高新生物技术为核心，有机、生态、绿色、环保为理念，集产品研发、生产销售，物流配送于一体的综合性企业。公司生产环节中的主要原料为当地畜禽废物及页岩、秸秆等，利用高科技发酵技术处理，污染问题，养殖业的可持续发展。并以高新生物技术为核心..."
             )
           ])
         ],
@@ -15291,7 +15301,7 @@ var render = function() {
             _c("div", { staticClass: "aboutUsBox" }, [
               _c("p", [
                 _vm._v(
-                  "河北林伟盛达有机肥经营有限公司位于历史悠久的古城保定市唐县，是一家以高新生物技术为核心，有机、生态、绿色、环保为理念，集产品研发、生产销售，物流配送于一体的综合性企业。公司生产环节中的主要\n                        原料为当地畜禽废物及页岩、秸秆等，利用高科技发酵技术处理，污染问题，养殖业的可持续发展。并以高新生物技术为核心，有机、生态、绿色为主，集科研开发、生产销售、项目产业化于一体，产品质量\n                        和多项技术指标先进。我厂生产的活性生物有机肥系列产品："
+                  "河北林伟金鑫农业有机肥制造有限公司位于历史悠久的古城保定市唐县，是一家以高新生物技术为核心，有机、生态、绿色、环保为理念，集产品研发、生产销售，物流配送于一体的综合性企业。公司生产环节中的主要\n                        原料为当地畜禽废物及页岩、秸秆等，利用高科技发酵技术处理，污染问题，养殖业的可持续发展。并以高新生物技术为核心，有机、生态、绿色为主，集科研开发、生产销售、项目产业化于一体，产品质量\n                        和多项技术指标先进。我厂生产的活性生物有机肥系列产品："
                 ),
                 _c("i", [
                   _vm._v(
@@ -15457,7 +15467,7 @@ var render = function() {
             _c("div", { staticClass: "contactUsBox" }, [
               _c("div", { attrs: { id: "map" } }),
               _vm._v(" "),
-              _c("p", [_vm._v("公司：河北林伟盛达有机肥经营有限公司")]),
+              _c("p", [_vm._v("公司：河北林伟金鑫农业有机肥制造有限公司")]),
               _vm._v(" "),
               _c("p", [_c("i", [_vm._v("联系人：13313246827（石经理）")])]),
               _vm._v(" "),
@@ -16476,4 +16486,4 @@ var index_esm = {
 
 /***/ })
 ],[115]);
-//# sourceMappingURL=index-d87034a6689ee7343ec8.js.map
+//# sourceMappingURL=index-95ae5e196de5334586e2.js.map

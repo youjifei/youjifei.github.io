@@ -42,7 +42,12 @@ function errHandler(src,err){
 };
 
 gulp.task('cleanDev',done=>{
-	return del(files.statics.concat(files.manifest),{force:true},done);
+	return del(files.statics.concat(files.manifest)
+		.concat(files.proTemplates)
+		.concat(files.proAssets),
+		{force:true},
+		done
+		);
 });
 gulp.task('cleanProduct',done=>{
 	return del(files.statics.concat(files.manifest)

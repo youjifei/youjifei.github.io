@@ -1,7 +1,8 @@
 <template>
 	<div id="header" v-bind:class="isPhone ? 'isPhoneHeader':''">
 		<div class="headerIn">
-			<img src="" alt="">
+			<span class="title" v-if="!isPhone">河北林伟金鑫农业有机肥制造有限公司</span>
+			<span class="title" v-if="isPhone">河北林伟金鑫</span>
 			<div class="tab" v-if="isPhone" v-on:click="navSlide">
 				<span></span>
 			</div>
@@ -10,6 +11,7 @@
 					<a href="javascript:;" v-on:click="jump(el)">{{el.name}}</a>
 				</li>
 			</ul>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 </template>
@@ -99,6 +101,12 @@
 		.headerIn{
 			width: 1200px;
 			margin:0 auto;
+			.title{
+				color: $white;
+				font-size: $font-large;
+				line-height: 59px;
+				letter-spacing:5px;
+			}
 			ul{
 				width:700px;
 				float:right;
@@ -133,6 +141,13 @@
 			.headerIn{
 				width: 100%;
 				position: relative;
+				.title{
+					display: inline-block;
+					width: 170px;
+					position: relative;
+					left: 50%;
+					margin-left: -85px;
+				}
 				.tab{
 					width:36px;
 					height: 36px;

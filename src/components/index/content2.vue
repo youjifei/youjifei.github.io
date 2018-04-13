@@ -3,7 +3,7 @@
 		<span class="point aboutUs">
 			<span class="pointName pointName1" v-if="!isPhone">关于我们</span>
 			<p class="pointTitle" v-if="isPhone">关于我们</p>
-			<router-link to="/contactUs">河北林伟盛达有机肥经营有限公司位于历史悠久的古城保定市唐县，是一家以高新生物技术为核心，有机、生态、绿色、环保为理念，集产品研发、生产销售，物流配送于一体的综合性企业。公司生产环节中的主要原料为当地畜禽废物及页岩、秸秆等，利用高科技发酵技术处理，污染问题，养殖业的可持续发展。并以高新生物技术为核心...</router-link>
+			<router-link to="/contactUs">河北林伟金鑫农业有机肥制造有限公司位于历史悠久的古城保定市唐县，是一家以高新生物技术为核心，有机、生态、绿色、环保为理念，集产品研发、生产销售，物流配送于一体的综合性企业。公司生产环节中的主要原料为当地畜禽废物及页岩、秸秆等，利用高科技发酵技术处理，污染问题，养殖业的可持续发展。并以高新生物技术为核心...</router-link>
 		</span>
 		<span class="point culture">
 			<span class="pointName pointName2" v-if="!isPhone">企业文化</span>

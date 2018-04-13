@@ -8,7 +8,7 @@
 			</span>
 			<img class="wxCode" src="../images/szw.png" alt="" v-if="!isPhone">
 		</div>
-		<p class="copy">版权所有：©河北林伟盛达有机肥经营有限公司</p>
+		<p class="copy">版权所有：©河北林伟金鑫农业有机肥制造有限公司</p>
 	</div>
 </template>
 <script type="text/javascript">
