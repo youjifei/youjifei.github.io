@@ -1,9 +1,53 @@
 <template>
-	<div id="content3" v-if="!isPhone">
+	<div class="content3" v-bind:class="isPhone ? 'isPhone':''">
 		<div class="titleBox">
-			<h3 class="title"><img src="../images/paw.png" alt="">产品展示<a href="product.html">更多>></a></h3>
+			<h3 class="title"><img src="../images/paw.png" alt="">实景拍摄</h3>
 		</div>
 		<div class="productsBox">
+			<span>
+				<a class="imgBox" href="javascript:;">
+					<img src="../images/thermometer.png" alt="">
+					<div class="meng">温度表</div>
+				</a>
+				<p  class="name">
+					<a href="javascript:;">温度表</a>
+				</p>
+			</span>
+			<span>
+				<a class="imgBox" href="javascript:;">
+					<img src="../images/material1.jpg" alt="">
+					<div class="meng">有机肥原料（一）</div>
+				</a>
+				<p  class="name">
+					<a href="javascript:;">有机肥原料（一）</a>
+				</p>
+			</span>
+			<span>
+				<a class="imgBox" href="javascript:;">
+					<img src="../images/material2.jpg" alt="">
+					<div class="meng">有机肥原料（二）</div>
+				</a>
+				<p  class="name">
+					<a href="javascript:;">有机肥原料（二）</a>
+				</p>
+			</span>
+			<span>
+				<a class="imgBox" href="javascript:;">
+					<img src="../images/feed.png" alt="">
+					<div class="meng">养羊饲料</div>
+				</a>
+				<p  class="name">
+					<a href="javascript:;">养羊饲料</a>
+				</p>
+			</span>
+			<video src="../videos/fensui.mp4" controls="controls" class="video video1"></video>
+			<video src="../videos/fajiao.mp4" controls="controls" class="video video2"></video>
+			<div class="clearfix"></div>
+		</div>
+		<div class="titleBox mt-20"  v-if="!isPhone">
+			<h3 class="title"><img src="../images/paw.png" alt="">产品展示<a href="product.html">更多>></a></h3>
+		</div>
+		<div class="productsBox"  v-if="!isPhone">
 			<span v-for="(el,index) in products">
 				<a class="imgBox" href="javascript:;" v-on:click="seeProduct(el)">
 					<img v-if="index == 0" src="../images/sheep1.jpg" alt="">
@@ -87,11 +131,12 @@
 <style type="text/css" lang="scss" scoped>
 	@import "../../base/base";
 
-	#content3{
+	.content3{
 		width:1600px;
-		height: 622px;
+		// height: 622px;
 		margin:0 auto;
-		background-image: url(../images/contentBg3.jpg);
+		background: url(../images/contentBg3Top.png) 0 0 no-repeat ,url(../images/contentBg3Bottom.png) bottom center no-repeat;
+		background-color: #0C4002;
 		overflow: hidden;
 		.titleBox{
 			width: 980px;
@@ -160,6 +205,69 @@
 					a{
 						color:$green-dark;
 					}
+				}
+			}
+			.video{
+				display: inline-block;
+				float: left;
+				width: 470px;
+				height: 300px;
+				&.video1{
+					margin-left: 10px;
+				}
+				&.video2{
+					margin-left: 25px;
+				}
+			}
+		}
+		
+		
+		&.isPhone{
+			width:100%;
+			background-image: none;
+			.titleBox{
+				width:100%;
+				background-image: none;
+				margin:0 auto;
+				.title{
+					text-align: center;
+					img{
+						display: none;
+					}
+				}
+			}
+			.productsBox{
+				width: 100%;
+				span{
+					width:46%;
+					height: auto;
+					background-image: none;
+					margin:5px 2%;
+					float: left;
+					.imgBox{
+						width: 100%;
+						img{
+							display: block;
+							width: 100%;
+						}
+						&:hover .meng{
+							display: none;
+						}
+					}
+					.name{
+						display: block;
+						text-align: center;
+						line-height: 46px;
+						a{
+							color:$white;
+						}
+					}
+				}
+				.video{
+					display:block;
+					width: 96%;
+					height: auto;
+					margin:10px 0 10px 2%;
 				}
 			}
 		}

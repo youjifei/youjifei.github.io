@@ -31,6 +31,10 @@ export default {
 			{
 				test:/\.(png|jpe?g|git|svg|woff2?|eot|ttf|otf)(\?.*)?$/,
 				use:'url-loader?limit=3000',
+			},
+			{
+				test: /\.(woff|woff2|eot|ttf|otf|mp4)$/,
+				use: 'file-loader',
 			}
 		]
 	},

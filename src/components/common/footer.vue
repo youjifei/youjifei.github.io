@@ -3,7 +3,8 @@
 		<div class="footerIn">
 			<span class="words">
 				<p>联系人&nbsp;&nbsp;&nbsp;：石泽卫</p>
-				<p>联系电话：13313246827</p>
+				<p>联系电话：<a href="tel:13313246827">13313246827</a><template v-if="!isPhone">&nbsp;&nbsp;&nbsp;15132420103</template></p>
+				<p  v-if="isPhone">联系电话：<a href="tel:15132420103">15132420103</a></p>
 				<p>联系地址：河北省保定市唐县北罗镇西下素村1区128号</p>
 			</span>
 			<img class="wxCode" src="../images/szw.png" alt="" v-if="!isPhone">
@@ -47,6 +48,9 @@
 			font-size: $font-base;
 			color:$green-yellow;
 			line-height: 26px;
+			a{
+				color:$green-yellow;
+			}
 			&.copy{
 				display: block;
 				text-align: center;
